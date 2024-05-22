@@ -546,8 +546,8 @@ button#enviarSugestao:hover {
 /* cadasto inicio */
 .campo {
   padding: 1rem;
-  margin: 108px;
-  width: 100%;
+  /* margin: 108px;
+  width: 100%; */
   background: rgba(111, 111, 111, 0.27);
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 30px;
@@ -574,7 +574,11 @@ button#enviarSugestao:hover {
 /* fim cadastro */
 
 .input-control.instituicao {
-  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 18rem;
 }
 
 .cadasto-login {
