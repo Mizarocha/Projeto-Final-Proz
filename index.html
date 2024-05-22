@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educação Digital</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <div id="div-formulario">
+    <div class="form">
+      <header>
+        <nav class="cabecalho">
+          <img class="logo" onclick="mostrarAba('home')" src="img/pngegg.png" alt="" style="cursor: pointer" />
+
+          <ul class="links-do-cabecalho">
+            <li id="home">
+              <a href="#" onclick="mostrarAba('home')">Home</a>
+            </li>
+            <li id="iniciativa">
+              <a href="#" onclick="mostrarAba('iniciativa')">Iniciativa</a>
+            </li>
+            <li id="indice">
+              <a href="#" onclick="mostrarAba('indice')">Índice</a>
+            </li>
+            <li id="cursos">
+              <a href="#" onclick="mostrarAba('cursos')">Cursos</a>
+
+            </li>
+            <li id="sugestoes">
+              <a href="#" onclick="mostrarAba('sugestoes')">Sugestões</a>
+            </li>
+            <li id="contato">
+              <a href="#" onclick="mostrarAba('contato')">Contatos</a>
+            </li>
+          </ul>
+
+          <div class="botoes-acesso">
+            <button onclick="mostrarAba('divLogin')" type="button" class="btn btn-outline-info">Login</button>
+            <button onclick="mostrarAba('cadastro')" type="button" class="btn btn-outline-info">Cadastro</button>
+
+          </div>
+
+          <div> <!-- caixa de busca -->
+            <div class="box-busca">
+              <div class="search-box">
+                <form method="post" action="#">
+                  <input type="text" class="search-box-input" name="busca" placeholder="Faça sua Pesquisa">
+                  <button class="search-box-button"><i class="search-box-icone icon icon-search"></i></button>
+                </form>
+              </div>
+            </div>
+            <!-- Search -->
+
+          </div><!--Box Busca-->
+
+        </nav>
+      </header>
+    </div>
+
+    <div class="grid-section divLogin" id="divLogin" style="display: none">
+      <div class='container-login'>
+        <div class='card'>
+          <h1> Login</h1>
+        <form>
+          <div class="label-float">
+            <input type="text" id="nomeLogin" placeholder=" " required>
+            <label id="labelNome" for="nome">Email</label>
+          </div>
+
+          <div class="label-float">
+            <input type="password" id="senhaLogin" placeholder=" " required>
+            <label id="labelSenha" for="senha">Senha</label>
+            <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+
+          <div class='justify-center'>
+            <button id="enviarLogin" type="button" class="btn btn-outline-danger">Entrar</button>
+          </div>
+        </form>
+          <div class="texto-cadastro">
+            <h5>Ainda não tem conta? <button onclick="mostrarAba('cadastro')" >Cadastre-se</button></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-section home" id="home">
+      <div class="container-principal">
+        <div class="conteudo">
+          <h1>Pronto para aprender?</h1>
+          <h2>Pronto para mudar o mundo?</h2>
+          <h3>Vamos começar!</h3>
+          <p>
+            Junte-se a nós para construir uma Educação de qualidade e
+
+            invadir o mundo com a programação.
+          </p>
+        </div>
+
+        <!-- <div class="image-home">
+          <img src="./img/linguagem-de-programacao.jpg" alt="image-home" />
+        </div> -->
+      </div>
+      <div class="botao-home">
+        <button onclick="mostrarAba('cadastro')" type="button" class="teste">100% Gratuito</button>
+      </div>
+    </div>
+
+    <form role="form">
+      <div class="hide grid-section iniciativa" id="iniciativa" style="display: none">
+        <div>
+          <h1 class="titulo">Educação Digital</h1>
+        </div>
+        <div class="container">
+          <div class="row inicio">
+            <div class="aluno-lista">
+              <span>
+                <img class="fotoPrincipal" src="img/foto6.jpg" />
+                <section class="fieldset-form">
+                  <h2>Desafios da Educação</h2>
+                  <p>
+                    O sistema educacional enfrenta diversos desafios, como a
+                    falta de recursos, a desigualdade de acesso e a
+                    necessidade de adaptação às novas tecnologias.
+                  </p>
+                  <p>
+                    Superar esses desafios requer esforços coletivos e
+                    investimentos em educação de qualidade para todos.
+                  </p>
+                  <p>
+                    O desafio da <strong>Construindo Sonhos</strong> é acabar com esse déficit na Educação
+                    e trazer igualdade e qualidade para todos.
+                  </p>
+                </section>
+              </span>
+              <span>
+                <img class="fotoPrincipal" src="img/educacao-inclusiva.jpg" />
+                <section class="fieldset-form">
+                  <h2>Educação Inclusiva</h2>
+                  <p>
+                    A educação inclusiva visa garantir que todos os alunos,
+                    independentemente de suas habilidades ou necessidades
+                    especiais, tenham acesso a uma educação de qualidade em
+                    ambientes inclusivos.
+                  </p>
+                  <p>
+                    Isso requer políticas e práticas que promovam a
+                    diversidade, a equidade e a acessibilidade em todas as
+                    instituições educacionais.
+                  </p>
+                </section>
+              </span>
+              <span>
+                <img class="fotoPrincipal" src="img/tecno.jpg" />
+                <section class="fieldset-form">
+                  <h2>Tecnologia na Educação</h2>
+                  <p>
+                    A integração da tecnologia na educação oferece
+                    oportunidades únicas de aprendizado, permitindo o acesso
+                    a recursos educacionais online, ferramentas de
+                    colaboração e métodos de ensino inovadores.
+                  </p>
+                  <p>
+                    É essencial aproveitar o potencial da tecnologia para
+                    aprimorar a experiência educacional e preparar os alunos
+                    para os desafios do século XXI.
+                  </p>
+                  <p>
+                    Pensando nesses preparos e métodos de aprendizado, a <strong>Construindo Sonhos</strong>
+                    é uma ferramenta para as crianças e até a maioridade.
+                  </p>
+                </section>
+              </span>
+              <span>
+                <img class="fotoPrincipal" src="./img/desenvolvimento.2.png" />
+                <section class="fieldset-form">
+                  <h2>Desenvolvimento Profissional</h2>
+                  <p>
+                    O desenvolvimento profissional contínuo dos educadores é
+                    fundamental para garantir a qualidade do ensino e a
+                    melhoria dos resultados educacionais.
+                  </p>
+                  <p>
+                    Oferecer oportunidades de formação e atualização para os
+                    professores é essencial para promover práticas
+                    pedagógicas eficazes e inovadoras.
+                  </p>
+                </section>
+              </span>
+              <span>
+                <img class="fotoPrincipal" src="img/profissional.jpeg" />
+                <section class="fieldset-form">
+                  <h2>Educação para o Futuro</h2>
+                  <p>
+                    A educação deve preparar os alunos não apenas para o
+                    presente, mas também para o futuro, fornecendo as
+                    habilidades, conhecimentos e competências necessárias
+                    para enfrentar os desafios e oportunidades que surgirão.
+                  </p>
+                  <p>
+                    Isso requer um currículo adaptado às demandas do mercado
+                    de trabalho global e uma abordagem centrada no
+                    desenvolvimento de habilidades como pensamento crítico,
+                    colaboração e resolução de problemas.
+                  </p>
+                  <p>
+                    Esse é a missão da <strong>Construindo Sonhos</strong>
+                  </p>
+                </section>
+              </span>
+              <span>
+                <img class="fotoPrincipal" src="img/futuro.jpg" />
+                <section class="fieldset-form">
+                  <h2>Investimento em Educação</h2>
+                  <p>
+                    O investimento em educação é essencial para garantir o
+                    desenvolvimento sustentável e o progresso social.
+                  </p>
+                  <p>
+                    Isso inclui investimentos em infraestrutura escolar,
+                    formação de professores, materiais didáticos e programas
+                    educacionais inovadores.
+                  <p>E com isso a <strong>Construindo
+                      Sonhos</strong> trouxe esse modelo de ensino, levando seu produto para dentro
+                    das salas de aulas de forma gratuita e para todas as gerações e acessibilidade".</p>
+                  </p>
+                </section>
+              </span>
+            </div>
+            <!-- <div class="aluno-descricao"></div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="hide grid-section indice" id="indice" style="display: none">
+        <div>
+          <h1 class="titulo">Índice</h1>
+        </div>
+        <!-- <fieldset class="fieldset-form"> -->
+          <div class="row graficos">
+            <div class="grafico">
+              <canvas id="grafico1" style="width: 100px; height: 100px;"></canvas>
+            </div>
+            <div class="grafico2">
+              <canvas id="grafico2" width="470" height="470"></canvas>
+            </div>
+            <div class="grafico3">
+              <canvas id="grafico3" width="470" height="470"></canvas>
+            </div>
+          </div>
+        <!-- </fieldset> -->
+      </div>
+
+      <div class="grid-section cursos" id="cursos" style="display: none">
+        <div>
+          <h1 class="titulo">Cursos</h1>
+        </div>
+
+        <div class="row">
+          <!-- <fieldset class="fieldset-form"> -->
+            <div class="carousel">
+              <div class="course">
+                <img src="https://github.com/Mizarocha/Projeto_educacao_de_qualidade/assets/88461178/99ab1fdf-0734-4f76-a76e-a0314d7d5a22" alt="Curso 1">
+                <h3>Happy Code</h3>
+                <p>Crianças de 5 até 17 anos</p>
+                <button id="botaoHappyCode">Entrar</button>
+              </div>
+
+              <div class="course">
+                <img src="https://github.com/Mizarocha/Projeto_educacao_de_qualidade/assets/88461178/6300c45a-53f9-4c99-849f-7b00f1c7f61c" alt="Curso 2">
+                <h3>Programakids</h3>
+                <p>Crianças e adolescentes entre 7 e 14 anos.</p>
+                  <button id="botaoProgramaKids">Entrar</button>    
+              </div>
+
+              <div class="course">
+                <img src="https://github.com/Mizarocha/Projeto_educacao_de_qualidade/assets/88461178/0fe70361-341c-409f-8231-d57003d67eb5" alt="Curso 3">
+                <h3>Dio</h3>
+                <p>Adolescentes e adultos de 15 a maior idade</p>
+                <button id="botaoDio">Entrar</button>
+
+              </div>
+
+              <div class="course">
+                <img src="https://github.com/Mizarocha/Projeto_educacao_de_qualidade/assets/88461178/d03ec284-460b-45ef-ad8b-22f9ad5d1c3a" alt="Curso 4">
+                <h3>Alura</h3>
+                <p>Para Maiores de 15 anos</p>
+                <button id="botaoAlura">Entrar</button>
+              </div>
+
+              <div class="course">
+                <img src="https://github.com/Mizarocha/Projeto_educacao_de_qualidade/assets/88461178/a7eacd11-b291-49bd-b68f-1c8560bd3ba2" alt="Curso 5">
+                <h3>RocketSeat</h3>
+                <p>Para todas as idades</p>
+                <button id="botaoRochetseat">Entrar</button>
+              </div>
+
+              <div class="course">
+                <img src="https://github.com/Mizarocha/Projeto_educacao_de_qualidade/assets/88461178/0aaa535f-cf41-4358-b35a-393f67a25870" alt="Curso 6">
+                <h3>Código Kid</h3>
+                <p>ara crianças e adolescentes a partir de 7 anos de idade</p>
+                <button id="botaoCodigoKid">Entrar</button>
+              </div>
+              <div class="course">
+                <img src="https://github.com/Mizarocha/Projeto_educacao_de_qualidade/assets/88461178/0a7093bb-8b95-4c0e-abdd-e2b7a8695fe5" alt="Curso 6">
+                <h3>Tic em Trilhas</h3>
+                <p>Para todas as idades</p>
+                <button id="botaoTicTrilhas">Entrar</button>
+              </div>
+              <div class="course">
+                <img src="https://github.com/Mizarocha/Projeto_educacao_de_qualidade/assets/88461178/ad752203-b017-4968-8003-bd15a3064576" alt="Curso 6">
+                <h3>Programaria</h3>
+                <p>Dedicado para as mulheres</p>
+                <button id="botaoProgramaria">Entrar</button>
+              </div>
+            </div>
+          <!-- </fieldset> -->
+        </div>
+      </div>
+
+      <div class="hide grid-section sugestoes" id="sugestoes" style="display: none">
+      <div>
+        <h1 class="titulo">Sugestões</h1>
+      </div>
+      <fieldset class="fieldset-form" id="fieldset">
+        <form id="formLogin">
+        <div class="campo1">
+          <div class="campo-sugestao">
+            <div class="campo-bloco1">
+              <div class="input-control">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="nome" class="form-control" id="nomeSugestao" placeholder="Digite seu nome" />
+              </div>
+              <div class="input-control">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" class="form-control" id="emailSugestao" placeholder="Digite seu email" />
+              </div>
+              <div class="input-control">
+                <label for="telefone" class="form-label">Telefone:</label>
+                <input type="tel" class="form-control" id="telefoneSugestao" placeholder="Digite seu telefone" />
+              </div>
+            </div>
+            <div class="campo-bloco2">
+              <div class="input-control01">
+                <label for="sugestao" class="form-label">Sugestão</label>
+                <textarea class="form-control" id="sugestaoSugestao" placeholder="Digite sua sugestão"></textarea>
+              </div>
+            </div>
+            <div class="campo-botao">
+              <button id="enviarSugestao" type="button" class="btn-sugestao">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      </fieldset>
+  </div>
+  <div class="grid-section cadastro" id="cadastro" style="display: none">
+    <div>
+      <h1 class="titulo">Dados da Instituição</h1>
+    </div>
+        <div class="row">
+        <div class="campo">
+          <div class="input-control">
+            <label for="nomeCadastro" class="form-label">Solicitante:</label>
+            <input type="text" class="form-control" id="nomeCadastro" placeholder="Digite seu nome completo" />
+          </div>
+          <div class="input-control">
+            <label for="emailCadastro" class="form-label">E-mail:</label>
+            <input type="email" class="form-control" id="emailCadastro" placeholder="Digite seu email" />
+          </div>
+          <div class="input-control">
+            <label for="telefoneCadastro" class="form-label">Telefone:</label>
+            <input type="tel" class="form-control" id="telefoneCadastro" placeholder="Digite seu telefone" />
+          </div>
+          <div class="input-control">
+            <label for="estado" class="form-label">Estado:</label>
+            <input type="text" class="form-control" id="estado" placeholder="Digite seu estado">
+          </div>
+          <div class="input-control">
+            <label for="cidade" class="form-label">Cidade:</label>
+            <input type="text" class="form-control" id="cidade" placeholder="Digite sua cidade" />
+          </div>
+          <div class="input-control">
+            <label for="instituicao" class="form-label"> Nome da Instituição:</label>
+            <input type="text" class="form-control" id="instituicao" placeholder="Digite o nome da instituição" />
+          </div>
+          <div class="input-control">
+            <label for="cnpf" class="form-label">CNPJ:</label>
+            <input type="text" class="form-control" id="cnpf" placeholder="Digite o CNPJ" />
+          </div>
+          <div class="input-control">
+            <label for="data" class="form-label">Data:</label>
+            <input type="date" class="form-control input-data" id="data" />
+          </div>
+
+          <div class="campo3">
+            <div class="input-control instituicao">
+              <label for="tipoDeInstituicao" class="form-label">Tipo de Instituição:</label>
+
+              <div class="radio-group">
+                <input type="radio" id="publica" name="tipoInstituicao" value="publica">
+                <label for="publica">Pública</label>
+
+                <input type="radio" id="privada" name="tipoInstituicao" value="privada">
+                <label for="privada">Privada</label>
+              </div>
+            </div>
+          </div>
+          <div class="btn-cadastro">
+            <button onclick="mostrarAba('home')" type="button" class="button3">Enviar Cadastro</button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  <div class="grid-section contato" id="contato" style="display: none">
+    <div>
+      <h1 class="titulo">Desenvolvedores</h1>
+    </div>
+    <!-- <section class="fieldset-form"> -->
+      <div class="row">
+        <ul class="dados" class="dados2">
+          <img class="foto" src="./img/Artemiza.jpg" />
+          <div class="dados-icone">
+            <a href="https://www.linkedin.com/in/artemiza-rocha/" target="_blank">
+              <img src="./img/linkedin.png" />
+            </a>
+            <a href="https://github.com/Mizarocha" target="_blank">
+              <img src="./img/github.png" />
+            </a>
+          </div>
+        </ul>
+        <ul class="dados" class="dados2">
+          <img class="foto" src="./img/FotoPerfil.jpeg" />
+          <div class="dados-icone">
+            <a href="https://www.linkedin.com/in/juanlucca846/" target="_blank">
+              <img src="./img/linkedin.png" />
+            </a>
+            <a href="https://github.com/JuanLucca846" target="_blank">
+              <img src="./img/github.png" />
+            </a>
+          </div>
+        </ul>
+        <ul class="dados" class="dados2">
+          <img class="foto" src="img/geovanne.jpeg" />
+          <div class="dados-icone">
+            <a href="https://linkedin.com/in/geovannemoreira" target="_blank">
+              <img src="./img/linkedin.png" />
+            </a>
+            <a href="https://github.com/geovannemoreira" target="_blank">
+              <img src="./img/github.png" />
+            </a>
+          </div>
+        </ul>
+        <ul class="dados" class="dados2">
+          <img class="foto" src="./img/foto_bruno.jpg" />
+          <div class="dados-icone">
+            <a href="https://www.linkedin.com/in/bruno-eustáquio-gonçalves-536b271b1/" target="_blank">
+              <img src="./img/linkedin.png" />
+            </a>
+            <a href="https://github.com/Brunoeustaquiodepaula" target="_blank">
+              <img src="./img/github.png" />
+            </a>
+          </div>
+        </ul>
+        <ul class="dados" class="dados2">
+          <img class="foto" src="img/Rafael.jpg" />
+          <div class="dados-icone">
+            <a href="https://www.linkedin.com/in/rafael-romualdo-5787a3217/" target="_blank">
+              <img src="./img/linkedin.png" />
+            </a>
+            <a href="https://github.com/rafaromualdo1989" target="_blank">
+              <img src="./img/github.png" />
+            </a>
+          </div>
+        </ul>
+      </div>
+      <!-- </<section> -->
+  </div>
+
+  <footer class="copy">
+    <p>Todos os direitos reservados aos seus respectivos donos.</p>
+  </footer>
+  </form>
+  </div>
+
+
+  <script src="./script.js"></script>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+
+</html>
