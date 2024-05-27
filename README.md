@@ -60,7 +60,11 @@ Vamos promover a educação de qualidade, digital e inclusiva. Vamos transformar
   <img  src="https://github.com/Mizarocha/Projeto-Final-Proz/assets/88461178/018c4624-b0d5-4216-9834-58043b87f466">
 </h1>
 
-## Deploy:         
+## Deploy:     
+
+- [Deploy](https://vercel.com/)
+
+          
 [Construindo Sonhos](projeto-final-proz.vercel.app)
 
  
