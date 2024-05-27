@@ -69,11 +69,10 @@ new Chart(ctx, {
 const novo = document.getElementById("grafico2");
 
 const data = {
-  labels: ["Bahia", "Amazonas", "São Paulo"],
+  labels: ["Bahia", "Amazonas", "Pernambuco"],
   datasets: [
     {
-      label:
-        "Cidades com maior índice de desempenho de educação com Construindo Sonhos",
+      label: "Cidades com Menor índice de desempenho de educação ",
       data: [250, 250, 250],
       backgroundColor: [
         "rgb(0, 200, 0)",
@@ -88,7 +87,7 @@ const data = {
 const chart = new Chart(novo, {
   type: "doughnut",
   data: data,
-  labels: ["Bahia", "Amazonas", "São Paulo"],
+  labels: ["Bahia", "Amazonas", "Pernambuco"],
   datasets: [
     {
       label: "My First Dataset",
@@ -124,7 +123,7 @@ const chart = new Chart(novo, {
     plugins: {
       title: {
         display: true,
-        text: "Estados com maior desempenho da Educação Digital",
+        text: "Estados com Menor desempenho da Educação Digital",
         color: "#fff",
         font: {
           size: 18,
