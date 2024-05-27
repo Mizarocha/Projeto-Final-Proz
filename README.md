@@ -37,7 +37,6 @@ Vamos promover a educação de qualidade, digital e inclusiva. Vamos transformar
 [Artemiza]()     
   <a href="https://www.linkedin.com/in/artemiza-rocha/a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href="https://github.com/Mizarocha" target="_blank"><img src="https://img.shields.io/badge/-GITHUB-1C6B94?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-
 <br><br>
 [Rafael]()  
   <a href="https://www.linkedin.com/in/rafael-romualdo-5787a3217/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
@@ -45,9 +44,7 @@ Vamos promover a educação de qualidade, digital e inclusiva. Vamos transformar
 <br><br>    
 [Juan]()            
   <a href="https://www.linkedin.com/in/juanlucca846" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-  <a href="https://github.com/JuanLucca846" target="_blank"><img src="https://img.shields.io/badge/-GITHUB-1C6B94?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>           
-
-<br><br>   
+  <a href="https://github.com/JuanLucca846" target="_blank"><img src="https://img.shields.io/badge/-GITHUB-1C6B94?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>           <br><br>   
 [Bruno]()   
   <a href="https://www.linkedin.com/in/bruno-eustáquio-gonçalves-536b271b1/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
   <a href="https://github.com/Brunoeustaquiodepaula" target="_blank"><img src="https://img.shields.io/badge/-GITHUB-1C6B94?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
@@ -55,7 +52,7 @@ Vamos promover a educação de qualidade, digital e inclusiva. Vamos transformar
 [Geovanne]()      
   <a href="https://linkedin.com/in/geovannemoreira" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>      
   <a href="https://github.com/geovannemoreira" target="_blank"><img src="https://img.shields.io/badge/-GITHUB-1C6B94?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>      
-<br><br>       
+<br><br>  
 
 ### Ilustração do Projeto: 
 
