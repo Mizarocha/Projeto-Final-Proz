@@ -4,4 +4,4 @@
 
  <h1 align="center">Projeto Final Proz</h1>
 
-Com base no curso e nos temas das ODS, desenvolvemos esse site para melhor a educação de qualidade, o co objetivo em educação digital
+Com base no curso e nos temas das ODS, desenvolvemos esse site para melhor a educação de qualidade, com o objetivo em Educação Digital
