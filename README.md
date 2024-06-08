@@ -1,5 +1,6 @@
 <h1 align="center">
-  <img  src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/5fd3c7f5-dc36-4ad2-bb06-453e41422437">
+  <img  src="https://github.com/Mizarocha/Projeto-Final-Proz/assets/88461178/6f93afec-4699-42db-aabc-7272bbba39db")
+>
 </h1>
 
  <h1 align="center">Projeto Final Proz</h1>
