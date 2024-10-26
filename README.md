@@ -63,10 +63,10 @@ Vamos promover a educação de qualidade, digital e inclusiva. Vamos transformar
 
 ## Deploy:     
 
-- [Deploy](https://vercel.com/)
+- [Deploy](https://projeto-final-proz.vercel.app/)
 
           
-[Construindo Sonhos](projeto-final-proz.vercel.app)
+[Construindo Sonhos](https://projeto-final-proz.vercel.app/)
 
  
   
